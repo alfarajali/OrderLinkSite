@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Full-bleed background -->
+  <rect width="1024" height="1024" fill="#FFD400"/>
+
+  <!-- Artistic O -->
+  <circle cx="350" cy="515" r="235" fill="#111111"/>
+  <circle cx="350" cy="515" r="143" fill="#FFD400"/>
+
+  <!-- Inner crescent cut to create the artistic swoosh -->
+  <path d="
+    M 128 495
+    C 170 610, 265 682, 382 674
+    C 432 671, 480 653, 520 625
+    C 484 665, 428 694, 360 703
+    C 247 717, 150 655, 115 552
+    C 109 533, 105 514, 104 493
+    C 106 493, 112 493, 128 495
+    Z" fill="#FFD400"/>
+
+  <!-- L -->
+  <rect x="650" y="290" width="105" height="465" rx="30" fill="#111111"/>
+  <rect x="650" y="650" width="280" height="105" rx="30" fill="#111111"/>
+</svg>
